@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Hugo 主题 MemE</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2022-03-30T18:50:09&#43;08:00</updated>
+    <updated>2022-03-30T19:00:08&#43;08:00</updated>
     <id>https://jiong952.github.io/</id>
     <link rel="alternate" type="text/html" href="https://jiong952.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://jiong952.github.io/atom.xml" />
@@ -360,7 +360,7 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
             <title type="text">使用Hugo搭建个人博客详细教程</title>
             <link rel="alternate" type="text/html" href="https://jiong952.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/" />
             <id>https://jiong952.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</id>
-            <updated>2022-03-30T16:35:31&#43;08:00</updated>
+            <updated>2022-03-30T18:58:46&#43;08:00</updated>
             <published>2022-03-30T16:34:30&#43;08:00</published>
             <author>
                     <name>reuixiy</name>
@@ -406,7 +406,20 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
 &lt;p&gt;注意：主题名要和themes文件夹中的文件夹名相同&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301631353.png&#34; alt=&#34;image-20220330163135234&#34;&gt;&lt;/p&gt;
 &lt;p&gt;启动成功&lt;/p&gt;
-</content>
+&lt;h1 id=&#34;部署到github&#34;&gt;部署到github&lt;/h1&gt;
+&lt;p&gt;在github新建一个仓库&lt;/p&gt;
+&lt;p&gt;注意：命名必须为【github的用户名】.github.io&lt;/p&gt;
+&lt;h2 id=&#34;cd到根目录&#34;&gt;cd到根目录&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;hugo --theme=meme --baseUrl=&amp;quot;https://jiong952.github.io&amp;quot; --buildDrafts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;初始化出public目录&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init
+git remote add origin https://github.com/jiong952/jiong952.github.io
+git add -A
+git commit -m &amp;#34;第一次提交&amp;#34;
+git remote set-url origin git@github.com:jiong952/jiong952.github.io.git
+git pull --rebase origin master
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;</content>
             
             
             
@@ -421,10 +434,10 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
         </entry>
     
         <entry>
-            <title type="text">Hugo更新博文以及部署到github</title>
+            <title type="text">Hugo更新博文以及更新到github</title>
             <link rel="alternate" type="text/html" href="https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/" />
             <id>https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/</id>
-            <updated>2022-03-30T16:51:20&#43;08:00</updated>
+            <updated>2022-03-30T18:59:54&#43;08:00</updated>
             <published>2022-03-30T12:45:26&#43;08:00</published>
             <author>
                     <name>reuixiy</name>
@@ -444,12 +457,12 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
 &lt;li&gt;meme是主题名&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;没修改配置文件默认到 http://localhost:1313/访问&lt;/p&gt;
-&lt;h1 id=&#34;部署到github&#34;&gt;部署到github&lt;/h1&gt;
+&lt;h1 id=&#34;更新到github&#34;&gt;更新到github&lt;/h1&gt;
 &lt;p&gt;cd到根目录下&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;把更新的博文更新到public目录&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;hugo --theme=meme --baseUrl=&amp;quot;https://github.com/jiong952/jiong952.github.io&amp;quot; --buildDrafts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo --theme=meme --baseUrl=&amp;quot;https://jiong952.github.io&amp;quot; --buildDrafts&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;cd到public目录下&lt;/p&gt;
