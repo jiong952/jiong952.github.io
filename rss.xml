@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo 主题 MemE</title>
+        <link>https://jiong952.github.io/</link>
+        <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
+        <generator>Hugo 0.96.0 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+        
+        
+            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Wed, 30 Mar 2022 18:50:09 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://jiong952.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>数模备战知识点详解</title>
+                <link>https://jiong952.github.io/post/%E6%95%B0%E6%A8%A1%E5%A4%87%E6%88%98%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AF%A6%E8%A7%A3/</link>
+                <guid isPermaLink="true">https://jiong952.github.io/post/%E6%95%B0%E6%A8%A1%E5%A4%87%E6%88%98%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AF%A6%E8%A7%A3/</guid>
+                <pubDate>Wed, 30 Mar 2022 16:41:21 &#43;0800</pubDate>
+                
+                    <author>reuixiy@gmail.com (reuixiy)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h1 id=&#34;画图&#34;&gt;画图&lt;/h1&gt;
+&lt;p&gt;Excel：刘万祥&lt;/p&gt;
+&lt;p&gt;原则：表上图下，每一个图都加分析&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;饼状图&lt;/strong&gt;：排序后画&lt;/p&gt;
+&lt;p&gt;其他占比少但是需要：考虑复合饼图&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;柱状图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如果类别很多，可以用堆积柱状图或者百分比柱状图&lt;/p&gt;
+&lt;p&gt;切换坐标轴：右键图表--&amp;gt;选择数据--&amp;gt;切换行和列&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;条形图&lt;/strong&gt;：相当于横着的柱状图&lt;/p&gt;
+&lt;p&gt;如果类别很多，要加入数据标签，使用条形图比较清晰（先排序）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;双向条形图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301638837.png&#34; alt=&#34;image-20210807204424088&#34;&gt;&lt;/p&gt;
+&lt;p&gt;用柱状图可视化回归结果&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639150.png&#34; alt=&#34;image-20210807205212191&#34;&gt;&lt;/p&gt;
+&lt;p&gt;按照置信水平区分数据，然后分为两列&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639186.png&#34; alt=&#34;image-20210807205517216&#34;&gt;&lt;/p&gt;
+&lt;p&gt;选1 2 4列插入堆积柱状图&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;直方图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;显示频数频率&lt;/p&gt;
+&lt;p&gt;频数：直接插入&lt;/p&gt;
+&lt;p&gt;频率：设计出两列&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639729.png&#34; alt=&#34;image-20210807212026528&#34;&gt;&lt;/p&gt;
+&lt;p&gt;区间用到的函数&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639243.png&#34; alt=&#34;image-20210807212103510&#34;&gt;&lt;/p&gt;
+&lt;p&gt;字符串拼接&lt;/p&gt;
+&lt;p&gt;然后点柱状图（少用）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;折线图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;折线图可以作为个数非常多的柱状图的补充&lt;/p&gt;
+&lt;p&gt;柱形图顶端的折线图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639507.png&#34; alt=&#34;image-20210808101825895&#34;&gt;&lt;/p&gt;
+&lt;p&gt;具体操作看视频&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;D:%5Cqq%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%5C%E6%9B%B4%E6%96%B01%E8%87%B34%E8%A7%86%E9%A2%91_%E4%B8%8B%E8%BD%BD%E5%90%8E%E8%AF%B7%E5%85%88%E8%A7%A3%E5%8E%8B&#34;&gt;excel视频&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;散点图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;带标示的散点图&lt;/p&gt;
+&lt;p&gt;将需要标识的数据分成两列&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;箱线图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比较两个定性变量之间的数据&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639673.png&#34; alt=&#34;image-20210808105412116&#34;&gt;&lt;/p&gt;
+&lt;p&gt;三维地图&lt;/p&gt;
+&lt;p&gt;islide中的智能图表&lt;/p&gt;
+&lt;h1 id=&#34;评价&#34;&gt;评价&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;算权重 主观：层次分析法（没有数据时用）  客观：熵权法/灰色关联分析（有数据）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;算得分：Topsis/灰色关联分析&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;指标降维：主成分/因子（好）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;灰色关联分析  =  Topsis+熵权法 （可以都用然后取平均）&lt;/p&gt;
+&lt;p&gt;[灰色关联分析.pdf](file:///D:/qq聊天记录/上课用的课件和代码(下载后记得解压，所有视频配套的都在里面) (1)/清风数学建模课件和代码（全套下载后请解压)/更新视频的课件和代码/更新5 灰色关联分析/灰色关联分析.pdf)&lt;/p&gt;
+&lt;h1 id=&#34;预测&#34;&gt;预测&lt;/h1&gt;
+&lt;h2 id=&#34;回归&#34;&gt;回归&lt;/h2&gt;
+&lt;h2 id=&#34;插值&#34;&gt;插值&lt;/h2&gt;
+&lt;p&gt;三次埃尔米特差值预测，三次样条插值预测（优先，准） 样本少，&lt;strong&gt;补充数据&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639650.png&#34; alt=&#34;image-20210721100148983&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;灰色预测&#34;&gt;灰色预测&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639348.png&#34; alt=&#34;image-20210812171132189&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;bp神经网络&#34;&gt;BP神经网络&lt;/h2&gt;
+&lt;h2 id=&#34;拟合算法&#34;&gt;拟合算法&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/courserli/article/details/107044356&#34;&gt;拟合算法笔记_CourserLi的博客-CSDN博客&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;时间序列预测&#34;&gt;时间序列预测&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;excel里的数据可以加一个数据条（条件格式--&amp;gt;数据条）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[数模新版视频课程第11讲.时间序列分析.pdf](file:///D:/qq聊天记录/上课用的课件和代码(下载后记得解压，所有视频配套的都在里面) (1)/清风数学建模课件和代码（全套下载后请解压)/正课视频的课件和代码/第11讲.时间序列分析/数模新版视频课程第11讲.时间序列分析.pdf)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;建模思路&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639684.png&#34; alt=&#34;image-20210804231539390&#34;&gt;&lt;/p&gt;
+&lt;p&gt;视频&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1i7411k7fB?p=40&#34;&gt;清风数学建模作业讲解的视频_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;替换缺失值（PPT第15页）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;定义时间变量&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;画时序图 图要分析&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果数据呈现季节性，季节性分解，得到四个变量，画出分解后的时序图&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;第4中的季节性调整后系列数据可以放进stata进行拟合（Matlab工具箱）&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639947.png&#34; alt=&#34;image-20210805152751535&#34;&gt;&lt;/p&gt;
+&lt;p&gt;拟合优度要高&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用SPSS的专家建模器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;结果不太理想(处理离群值)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用专家建模器得到的模型进行解释&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ACF PACF放进去，解释残差是白噪声序列&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;预测效果图放进去，解放趋势符合&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;预测数据和置信区间放进去&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639490.png&#34; alt=&#34;image-20210805154056340&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;数据预处理&#34;&gt;数据预处理&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;插值法补充数据&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;数据正向化（同趋化）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;相关性分析&#34;&gt;相关性分析&lt;/h1&gt;
+&lt;p&gt;Person  Sperson&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/CourserLi/article/details/107063278&#34;&gt;相关性分析笔记_CourserLi的博客-CSDN博客_斯皮尔曼相关性分析&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;相关性分析 非常适合在题目要求分析两组数据之间的关系时使用&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先折线图大致相关性分析（Excel）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;再按以下步骤&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639766.png&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;[皮尔逊相关系数：常州大学一等奖淡水养殖池塘水华发生及池水自净化研究.pdf](file:///D:/qq聊天记录/上课用的课件和代码(下载后记得解压，所有视频配套的都在里面) (1)/清风数学建模课件和代码（全套下载后请解压)/正课视频的课件和代码/第5讲.相关系数/扩展资料/皮尔逊相关系数：常州大学一等奖淡水养殖池塘水华发生及池水自净化研究.pdf)&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;典型相关分析&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;非常适合在题目要求分析两组数据（每组数据间有多个指标）之间的关系时使用&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[2012年数学建模A题一等奖论文葡萄酒的评价.pdf](file:///D:/qq聊天记录/上课用的课件和代码(下载后记得解压，所有视频配套的都在里面) (1)/清风数学建模课件和代码（全套下载后请解压)/正课视频的课件和代码/第6讲.典型相关分析/扩展资料/2012年数学建模A题一等奖论文葡萄酒的评价.pdf)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/NoBuggie/article/details/102830981?ops_request_misc=%7B%22request%5Fid%22%3A%22162717927216780261986081%22%2C%22scm%22%3A%2220140713.130102334..%22%7D&amp;amp;request_id=162717927216780261986081&amp;amp;biz_id=0&amp;amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-102830981.first_rank_v2_pc_rank_v29&amp;amp;utm_term=%E5%85%B8%E5%9E%8B%E7%9B%B8%E5%85%B3%E5%88%86%E6%9E%90&amp;amp;spm=1018.2226.3001.4187&#34;&gt;数学建模——典型相关分析及相关SPSS操作_东-CSDN博客_典型相关分析spss操作&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;步骤：扔进spss--&amp;gt;看典型相关分析表（用最后一列原显著性改为P值）来分析个数--&amp;gt;用这个个数去标准化典型相关系数找系数--&amp;gt;得到典型变量--&amp;gt;用系数的绝对值得到结论--&amp;gt;典型载荷以及已解释的方差比例进一步分析&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;数据收集&#34;&gt;数据收集&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639609.png&#34; alt=&#34;image-20210725165719914&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;解释或者预测&#34;&gt;解释或者预测&lt;/h1&gt;
+&lt;h2 id=&#34;多元线性回归分析模型&#34;&gt;多元线性回归分析模型&lt;/h2&gt;
+&lt;p&gt;多元线性回归顺序（Stata）&lt;/p&gt;
+&lt;p&gt;n&amp;gt;=k(列满秩)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1i7411k7fB?p=32&#34;&gt;清风数学建模作业讲解的视频_哔哩哔哩_bilibili&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;一描述性统计&#34;&gt;一、描述性统计&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// 定量变量的描述性统计
+summarize 团购价元 评价量 商品毛重kg
+// 定性变量的频数分布，并得到相应字母开头的虚拟变量
+tabulate 配方,gen(A)// 定量变量的描述性统计
+summarize 团购价元 评价量 商品毛重kg
+// 定性变量的频数分布，并得到相应字母开头的虚拟变量
+tabulate 配方,gen(A)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639520.png&#34; alt=&#34;image-20210726105601464&#34;&gt;&lt;/p&gt;
+&lt;p&gt;(指标说明图)&lt;/p&gt;
+&lt;h3 id=&#34;二线性模型假设&#34;&gt;二、线性模型假设&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;2.1 严格最小二乘估计（OLS）的条件和假设&lt;/p&gt;
+&lt;p&gt;假设1： 因变量为连续变量（二值、有序、计数等永其他模型）
+假设2：Y与X1、X2⋯Xn之间存在线性关系（当然：X可以为分类）
+假设3：独立性：因变量Y取值相互独立，即残差间相互独立，不存在自相关。主要和抽样、时间序列数据等有关 | 采用自回归模型（Autoregressive model，简称AR模型，用x预测 x（自己）；所以叫做自回归）等解决。
+假设4：残差方差齐性：标准化残差的大小不随变量取值的改变而改变（残差图）
+假设5：正态性：就自变量的任何一个线性组合，应变量y均服从正态分布，即要求残差ei服从正态分布&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;三基于o-l-s回归分析&#34;&gt;三、基于O L S回归分析&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;regress 评价量 团购价元 商品毛重kg
+est store m1
+reg2docx m1 using m1.docx, replace
+// 得到标准化回归系数(标准化回归可以消除量纲，比较各变量的重要程度)
+regress 评价量 团购价元 商品毛重kg, b 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639554.png&#34; alt=&#34;image-20210726110219077&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639016.png&#34; alt=&#34;image-20210726112027152&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;四异方差w-h-i-t-e-检验&#34;&gt;四、异方差W h i t e 检验&lt;/h3&gt;
+&lt;p&gt;先画散点图(粗略判断是否有异方差)&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// 画出残差图
+regress 评价量 团购价元 商品毛重kg A1 A2 A3 B1 B2 B3 B4 B5 B6 B7 B8 B9 C1 C2 D1 D2 D3 D4 D5 E1 E2 E3 E4 F1 F2 G1 G2 G3 G4
+rvfplot 
+// 残差与拟合值的散点图
+graph export a1.png ,replace
+// 残差与自变量团购价的散点图
+rvpplot  团购价元
+graph export a2.png ,replace
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639402.png&#34; alt=&#34;image-20210726110542320&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;estat imtest,white&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;五若存在异方差&#34;&gt;五、若存在异方差&lt;/h3&gt;
+&lt;p&gt;​		OLS+稳健的标准误&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639833.png&#34; alt=&#34;image-20210726102312884&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;regress y x1 x2 ... xk,robust&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;重新看P值（此时会有变化）越多显著越好&lt;/p&gt;
+&lt;h3 id=&#34;六多重共线性v-i-f检验&#34;&gt;六、多重共线性V I F检验&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;estat vif&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639185.png&#34; alt=&#34;image-20210726111029950&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;七如果有多重共线性则逐步向后回归或者用下面的lasso回归筛选变量检验&#34;&gt;七、如果有多重共线性，则逐步向后回归或者用下面的Lasso回归筛选变量检验&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// 向后逐步回归（后面的r表示稳健的标准误）
+stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9 C1 D1 D2 D3 D4 E1 E2 E3 F1 G1 G2 G3,  r pr(0.05)
+// 向后逐步回归的同时使用标准化回归系数（在r后面跟上一个b即可）
+stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9 C1 D1 D2 D3 D4 E1 E2 E3 F1 G1 G2 G3,  r b pr(0.05)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;八下结论模型分析&#34;&gt;八、下结论（模型分析）&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639260.png&#34; alt=&#34;image-20210726112644352&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;参数的压缩或变量筛选&#34;&gt;参数的压缩或变量筛选&lt;/h3&gt;
+&lt;p&gt;当n&amp;lt;k时不可以用多元线性回归&lt;/p&gt;
+&lt;p&gt;用岭回归，Lasso回归（多用）&lt;/p&gt;
+&lt;p&gt;lasso过程&lt;/p&gt;
+&lt;p&gt;当多元线性回归VIF&amp;gt;10时，用这个筛选变量&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先标准化，消除量纲（用SPSS描述性统计）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639928.png&#34; alt=&#34;image-20210811164713174&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639837.png&#34; alt=&#34;image-20210811164726701&#34;&gt;&lt;/p&gt;
+&lt;p&gt;用右边的，右边是筛选完再用多元线性回归&lt;/p&gt;
+&lt;p&gt;注意：seed里值不同结果可能不同&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;灰色关联分析&#34;&gt;灰色关联分析&lt;/h2&gt;
+&lt;p&gt;n比较少时可以用&lt;/p&gt;
+&lt;p&gt;[灰色关联分析.pdf](file:///D:/qq聊天记录/上课用的课件和代码(下载后记得解压，所有视频配套的都在里面) (1)/清风数学建模课件和代码（全套下载后请解压)/更新视频的课件和代码/更新5 灰色关联分析/灰色关联分析.pdf)&lt;/p&gt;
+&lt;p&gt;用于分析系统中哪个因素更重要&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301639496.png&#34; alt=&#34;image-20210811183401486&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;图&#34;&gt;图&lt;/h1&gt;
+&lt;p&gt;Dijkstra&lt;/p&gt;
+&lt;p&gt;Bellman-Ford&lt;/p&gt;
+&lt;p&gt;Floyd&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640809.png&#34; alt=&#34;image-20210811191332971&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;分类&#34;&gt;分类&lt;/h1&gt;
+&lt;p&gt;SPSS&lt;/p&gt;
+&lt;h2 id=&#34;逻辑回归&#34;&gt;逻辑回归&lt;/h2&gt;
+&lt;p&gt;不需要大篇幅模型介绍（放附录），简要介绍思想就行&lt;/p&gt;
+&lt;p&gt;（如果是二分类可以介绍）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640138.png&#34; alt=&#34;image-20210802172106792&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;由spss分析得&#34;&gt;由SPSS分析得&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640625.png&#34; alt=&#34;image-20210802172227522&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301641534.png&#34; alt=&#34;image-20210802172246093&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640794.png&#34; alt=&#34;image-20210802172300264&#34;&gt;&lt;/p&gt;
+&lt;p&gt;设置完用&lt;strong&gt;分类表&lt;/strong&gt;看预测成功率&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640250.png&#34; alt=&#34;image-20210802172508968&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果此时预测结果较差，加平方项&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640656.png&#34; alt=&#34;image-20210802172630531&#34;&gt;&lt;/p&gt;
+&lt;p&gt;再次预测&lt;/p&gt;
+&lt;p&gt;但是此时容易出现过拟合现象，结果太离谱就进行交叉验证&lt;/p&gt;
+&lt;h2 id=&#34;fisher线性判别分析&#34;&gt;Fisher线性判别分析&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640450.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;分析结果看分类结果表&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640953.png&#34; alt=&#34;image-20210802173454205&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;交叉验证&#34;&gt;交叉验证&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640592.png&#34; alt=&#34;image-20210802172729843&#34;&gt;&lt;/p&gt;
+&lt;p&gt;做一张图，对比真实的和预测的值，计算预测概率，给数据，哪种方法正确率高选哪个&lt;/p&gt;
+&lt;p&gt;最终看出预测结果&lt;/p&gt;
+&lt;h2 id=&#34;用于多分类&#34;&gt;用于多分类&lt;/h2&gt;
+&lt;p&gt;修改Fisher定义范围时最大最小值&lt;/p&gt;
+&lt;p&gt;逻辑回归则&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640403.png&#34; alt=&#34;image-20210802173730119&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640435.png&#34; alt=&#34;image-20210802173736393&#34;&gt;&lt;/p&gt;
+&lt;p&gt;注：替换后的数据可以导入excel中然后使用替换功能替换，多分类的数据导入spss之前也可以使用excel替换为1 2 3 4&lt;/p&gt;
+&lt;h1 id=&#34;聚类&#34;&gt;聚类&lt;/h1&gt;
+&lt;h2 id=&#34;k--means&#34;&gt;K -means++&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;SPSS操作&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640116.png&#34; alt=&#34;image-20210802183801030&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;量纲不一致&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640930.png&#34; alt=&#34;image-20210802183823700&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;系统层次聚类算法首选&#34;&gt;系统（层次）聚类算法（首选）&lt;/h2&gt;
+&lt;p&gt;模型概述&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640393.png&#34; alt=&#34;未命名文件&#34;&gt;&lt;/p&gt;
+&lt;p&gt;SPSS操作&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640699.png&#34; alt=&#34;image-20210802183939237&#34;&gt;&lt;/p&gt;
+&lt;p&gt;聚类谱系图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640986.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;用图形估计聚类数量&#34;&gt;用图形估计聚类数量&lt;/h2&gt;
+&lt;p&gt;用肘部法则&lt;/p&gt;
+&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640817.png&#34; alt=&#34;image-20210802200432489&#34; style=&#34;zoom:80%;&#34; /&gt;
+&lt;p&gt;利用的是之前聚类分析结果中（集中计划）的系数一列&lt;/p&gt;
+&lt;p&gt;放到excel降序---&amp;gt;推荐的图表---&amp;gt;散点图---&amp;gt;坐标轴&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640202.png&#34; alt=&#34;image-20210802200249777&#34;&gt;&lt;/p&gt;
+&lt;p&gt;观察图表得到K&lt;/p&gt;
+&lt;p&gt;确定K后保存聚类结果并画图&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;操作步骤&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640020.png&#34; alt=&#34;image-20210802200615494&#34;&gt;&lt;/p&gt;
+&lt;p&gt;重新画散点图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301640245.png&#34; alt=&#34;image-20210802200647818&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如果做出来的结果很符合DBSCAN再用DBSCAN&lt;/p&gt;
+&lt;h1 id=&#34;查重&#34;&gt;查重&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;把方法模型弄成流程图&lt;/li&gt;
+&lt;li&gt;复制到百度看看能不搜到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;搜索技巧&#34;&gt;搜索技巧&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;完全匹配搜索：在搜索词外加&amp;quot;&amp;quot;&lt;/li&gt;
+&lt;li&gt;标题包含关键词，在查词前加上intitle:&lt;/li&gt;
+&lt;li&gt;搜索文档：在查询后加空格再输入filetype:文件格式（pdf）&lt;/li&gt;
+&lt;li&gt;去除不想要的 在最后加空格 输入减号-关键词 如 -百度文库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;数据搜索&#34;&gt;数据搜索&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;知网，谷歌学术&lt;/li&gt;
+&lt;li&gt;国家统计局&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/awesomedata/awesome-public-datasets&#34;&gt;真棒数据/真棒公共数据集：总部开放数据集的以主题为中心的列表。 (github.com)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EPSDATA平台&lt;/li&gt;
+&lt;li&gt;国家信息中心，kaggle,和鲸社区&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;美赛摘要&#34;&gt;美赛摘要&lt;/h1&gt;
+&lt;p&gt;一段背景引入&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>使用Hugo搭建个人博客详细教程</title>
+                <link>https://jiong952.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</link>
+                <guid isPermaLink="true">https://jiong952.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</guid>
+                <pubDate>Wed, 30 Mar 2022 16:34:30 &#43;0800</pubDate>
+                
+                    <author>reuixiy@gmail.com (reuixiy)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h1 id=&#34;使用hugo搭建个人博客&#34;&gt;使用hugo搭建个人博客&lt;/h1&gt;
+&lt;h1 id=&#34;hugo安装&#34;&gt;Hugo安装&lt;/h1&gt;
+&lt;h2 id=&#34;下载&#34;&gt;下载&lt;/h2&gt;
+&lt;p&gt;安装地址：https://&lt;a href=&#34;https://so.csdn.net/so/search?q=github&amp;amp;spm=1001.2101.3001.7020&#34;&gt;github&lt;/a&gt;.com/gohugoio/hugo/releases&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301624299.png&#34; alt=&#34;image-20220330132232090&#34;&gt;&lt;/p&gt;
+&lt;p&gt;建议安装extended版本 有些主题需要在该版本下运行&lt;/p&gt;
+&lt;h2 id=&#34;创建目录&#34;&gt;创建目录&lt;/h2&gt;
+&lt;p&gt;自定义创建目录&lt;/p&gt;
+&lt;p&gt;我这里在D盘创建&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301624040.png&#34; alt=&#34;image-20220330132404024&#34;&gt;&lt;/p&gt;
+&lt;p&gt;将解压后的hugo.exe文件放到bin目录下&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301625116.png&#34; alt=&#34;image-20220330162530074&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;修改环境变量&#34;&gt;修改环境变量&lt;/h2&gt;
+&lt;p&gt;使我们可以在cmd下运行hugo进行相关操作；
+找到系统变量的Path，新建将hugo.exe所在的路径添加进去；
+测试，打开cmd，输入hugo version，查看hugo是否添加成功。&lt;/p&gt;
+&lt;h1 id=&#34;搭建博客&#34;&gt;搭建博客&lt;/h1&gt;
+&lt;p&gt;cd到D盘&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site 文件夹名称      # 我的是myBlog
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;随后D盘会多出一个myBlog文件夹，查看创建成功&lt;/p&gt;
+&lt;h1 id=&#34;创建文章&#34;&gt;创建文章&lt;/h1&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new post/blog.md      # **在创建的站点路径下执行**，即我的是在myBlog路径下执行
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;启动博客&#34;&gt;启动博客&lt;/h1&gt;
+&lt;p&gt;cd 到项目根目录&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server --buildDrafts
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;下载主题&#34;&gt;下载主题&lt;/h1&gt;
+&lt;p&gt;网址：https://themes.gohugo.io/&lt;/p&gt;
+&lt;p&gt;选择想要的主题下载或git clone到themes文件夹下&lt;/p&gt;
+&lt;h1 id=&#34;使用主题启动&#34;&gt;使用主题启动&lt;/h1&gt;
+&lt;p&gt;cd 到项目根目录&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo server -t meme --buildDrafts&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;meme主题名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;注意：主题名要和themes文件夹中的文件夹名相同&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://myblogimgbed.oss-cn-shenzhen.aliyuncs.com/img/202203301631353.png&#34; alt=&#34;image-20220330163135234&#34;&gt;&lt;/p&gt;
+&lt;p&gt;启动成功&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>Hugo更新博文以及部署到github</title>
+                <link>https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/</link>
+                <guid isPermaLink="true">https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/</guid>
+                <pubDate>Wed, 30 Mar 2022 12:45:26 &#43;0800</pubDate>
+                
+                    <author>reuixiy@gmail.com (reuixiy)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h1 id=&#34;新建一篇博文&#34;&gt;新建一篇博文&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;hugo new post/newblog.md&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;用Typora打开编辑&lt;/p&gt;
+&lt;h1 id=&#34;修改一篇博文&#34;&gt;修改一篇博文&lt;/h1&gt;
+&lt;p&gt;直接Typora修改 会自动刷新&lt;/p&gt;
+&lt;h1 id=&#34;本地启动项目&#34;&gt;本地启动项目&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;hugo server -t meme --buildDrafts&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;meme是主题名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;没修改配置文件默认到 http://localhost:1313/访问&lt;/p&gt;
+&lt;h1 id=&#34;部署到github&#34;&gt;部署到github&lt;/h1&gt;
+&lt;p&gt;cd到根目录下&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;把更新的博文更新到public目录&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hugo --theme=meme --baseUrl=&amp;quot;https://github.com/jiong952/jiong952.github.io&amp;quot; --buildDrafts&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;cd到public目录下&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;更新到github&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;将public的所有更新内容添加到git暂存区&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git add -A&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将暂存区文件提交到当前分支&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git commit -m &amp;quot;提交信息&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将本地版本库推到github的版本库&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push -u origin master&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;如果修改了主题则使用&lt;/p&gt;
+&lt;p&gt;`git pull origin master --allow-unrelated-&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
