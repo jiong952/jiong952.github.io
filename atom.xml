@@ -2,17 +2,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-    <title type="text">Hugo 主题 MemE</title>
+    <title type="text">answer的世界</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2022-03-30T19:08:01&#43;08:00</updated>
+    <updated>2022-03-30T21:13:17&#43;08:00</updated>
     <id>https://jiong952.github.io/</id>
     <link rel="alternate" type="text/html" href="https://jiong952.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://jiong952.github.io/atom.xml" />
     <author>
-            <name>reuixiy</name>
+            <name>answer</name>
             <uri>https://jiong952.github.io/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>1017328759@qq.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.96.0">Hugo</generator>
@@ -23,9 +23,9 @@
             <updated>2022-03-30T16:41:36&#43;08:00</updated>
             <published>2022-03-30T16:41:21&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
+                    <name>answer</name>
                     <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>1017328759@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">画图 Excel：刘万祥 原则：表上图下，每一个图都加分析 饼状图：排序后画 其他占比少但是……</summary>
             
@@ -363,9 +363,9 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
             <updated>2022-03-30T18:58:46&#43;08:00</updated>
             <published>2022-03-30T16:34:30&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
+                    <name>answer</name>
                     <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>1017328759@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">使用hugo搭建个人博客 Hugo安装 下载 安装地址：https://github.co……</summary>
             
@@ -437,12 +437,12 @@ git push -u origin master
             <title type="text">Hugo更新博文以及更新到github</title>
             <link rel="alternate" type="text/html" href="https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/" />
             <id>https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/</id>
-            <updated>2022-03-30T18:59:54&#43;08:00</updated>
+            <updated>2022-03-30T19:11:43&#43;08:00</updated>
             <published>2022-03-30T12:45:26&#43;08:00</published>
             <author>
-                    <name>reuixiy</name>
+                    <name>answer</name>
                     <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>1017328759@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">新建一篇博文 hugo new post/newblog.md 用Typora打开编辑 修改一篇博文 直接Typora修改 会自动刷新 本……</summary>
             
@@ -484,7 +484,7 @@ git push -u origin master
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;如果修改了主题则使用&lt;/p&gt;
-&lt;p&gt;`git pull origin master --allow-unrelated-&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git pull origin master --allow-unrelated-histories&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
