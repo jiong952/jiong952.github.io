@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">answer的世界</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2022-03-30T21:13:17&#43;08:00</updated>
+    <updated>2022-04-01T01:28:33&#43;08:00</updated>
     <id>https://jiong952.github.io/</id>
     <link rel="alternate" type="text/html" href="https://jiong952.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://jiong952.github.io/atom.xml" />
@@ -20,14 +20,14 @@
             <title type="text">数模备战知识点详解</title>
             <link rel="alternate" type="text/html" href="https://jiong952.github.io/post/%E6%95%B0%E6%A8%A1%E5%A4%87%E6%88%98%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AF%A6%E8%A7%A3/" />
             <id>https://jiong952.github.io/post/%E6%95%B0%E6%A8%A1%E5%A4%87%E6%88%98%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AF%A6%E8%A7%A3/</id>
-            <updated>2022-03-30T16:41:36&#43;08:00</updated>
+            <updated>2022-04-01T00:24:28&#43;08:00</updated>
             <published>2022-03-30T16:41:21&#43;08:00</published>
             <author>
                     <name>answer</name>
                     <uri>https://io-oi.me/</uri>
                     <email>1017328759@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">画图 Excel：刘万祥 原则：表上图下，每一个图都加分析 饼状图：排序后画 其他占比少但是……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">b站清风国赛数模课程个人笔记</summary>
             
                 <content type="html">&lt;h1 id=&#34;画图&#34;&gt;画图&lt;/h1&gt;
 &lt;p&gt;Excel：刘万祥&lt;/p&gt;
@@ -350,7 +350,23 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://jiong952.github.io/categories/%E6%95%B0%E6%A8%A1%E5%9B%BD%E8%B5%9B/" term="数模国赛" label="数模国赛" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://jiong952.github.io/tags/%E7%AB%9E%E8%B5%9B/" term="竞赛" label="竞赛" />
+                            
+                        
                     
                 
             
@@ -360,14 +376,14 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
             <title type="text">使用Hugo搭建个人博客详细教程</title>
             <link rel="alternate" type="text/html" href="https://jiong952.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/" />
             <id>https://jiong952.github.io/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B/</id>
-            <updated>2022-03-30T18:58:46&#43;08:00</updated>
+            <updated>2022-04-01T00:24:01&#43;08:00</updated>
             <published>2022-03-30T16:34:30&#43;08:00</published>
             <author>
                     <name>answer</name>
                     <uri>https://io-oi.me/</uri>
                     <email>1017328759@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">使用hugo搭建个人博客 Hugo安装 下载 安装地址：https://github.co……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">安装下载到部署详细讲述hugo个人博客搭建过程</summary>
             
                 <content type="html">&lt;h1 id=&#34;使用hugo搭建个人博客&#34;&gt;使用hugo搭建个人博客&lt;/h1&gt;
 &lt;h1 id=&#34;hugo安装&#34;&gt;Hugo安装&lt;/h1&gt;
@@ -427,7 +443,23 @@ git push -u origin master
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://jiong952.github.io/categories/hugo/" term="Hugo" label="Hugo" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://jiong952.github.io/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                            
+                        
                     
                 
             
@@ -437,14 +469,14 @@ git push -u origin master
             <title type="text">Hugo更新博文以及更新到github</title>
             <link rel="alternate" type="text/html" href="https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/" />
             <id>https://jiong952.github.io/post/hugo%E6%9B%B4%E6%96%B0%E5%8D%9A%E6%96%87%E4%BB%A5%E5%8F%8A%E9%83%A8%E7%BD%B2%E5%88%B0github/</id>
-            <updated>2022-03-30T19:11:43&#43;08:00</updated>
+            <updated>2022-04-01T00:22:07&#43;08:00</updated>
             <published>2022-03-30T12:45:26&#43;08:00</published>
             <author>
                     <name>answer</name>
                     <uri>https://io-oi.me/</uri>
                     <email>1017328759@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">新建一篇博文 hugo new post/newblog.md 用Typora打开编辑 修改一篇博文 直接Typora修改 会自动刷新 本……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">一文教会你Hugo如何更新博文到github</summary>
             
                 <content type="html">&lt;h1 id=&#34;新建一篇博文&#34;&gt;新建一篇博文&lt;/h1&gt;
 &lt;p&gt;&lt;code&gt;hugo new post/newblog.md&lt;/code&gt;&lt;/p&gt;
@@ -497,7 +529,23 @@ git push -u origin master
             
                 
                     
+                        
+                            
+                            
+                            
+                                <category scheme="https://jiong952.github.io/categories/hugo/" term="Hugo" label="Hugo" />
+                            
+                        
+                    
                 
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://jiong952.github.io/tags/%E6%8A%80%E6%9C%AF/" term="技术" label="技术" />
+                            
+                        
                     
                 
             

@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Wed, 30 Mar 2022 21:13:17 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 01 Apr 2022 01:28:33 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://jiong952.github.io/rss.xml" />
         
@@ -359,7 +359,23 @@ stepwise reg 评价量 团购价元 商品毛重kg A1 A3 B1 B2 B3 B4 B5 B6 B7 B9
                 
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://jiong952.github.io/categories/%E6%95%B0%E6%A8%A1%E5%9B%BD%E8%B5%9B/">数模国赛</category>
+                                
+                            
+                        
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://jiong952.github.io/tags/%E7%AB%9E%E8%B5%9B/">竞赛</category>
+                                
+                            
                         
                     
                 
@@ -433,7 +449,23 @@ git push -u origin master
                 
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://jiong952.github.io/categories/hugo/">Hugo</category>
+                                
+                            
+                        
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://jiong952.github.io/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                
+                            
                         
                     
                 
@@ -500,7 +532,23 @@ git push -u origin master
                 
                     
                         
+                            
+                                
+                                
+                                
+                                    <category domain="https://jiong952.github.io/categories/hugo/">Hugo</category>
+                                
+                            
+                        
                     
+                        
+                            
+                                
+                                
+                                
+                                    <category domain="https://jiong952.github.io/tags/%E6%8A%80%E6%9C%AF/">技术</category>
+                                
+                            
                         
                     
                 
